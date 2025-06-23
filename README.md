@@ -13,3 +13,19 @@ The script generates a synthetic dataset with features (average income, crime ra
 ## Installation
 ```bash
 pip install pandas numpy scikit-learn
+
+
+# Sentiment Analysis Tool
+This repository contains a Python script for analyzing text sentiment using NLTK's VADER.
+
+## Overview
+The script uses the VADER sentiment analyzer to classify text as Positive, Negative, or Neutral based on its compound score.
+
+## Requirements
+- Python 3.x
+- nltk
+
+## Installation
+```bash
+pip install nltk
+python -m nltk.downloader vader_lexicon
