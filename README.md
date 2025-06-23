@@ -1,3 +1,5 @@
+### Home Value Prediction README
+```
 # Home Value Prediction
 This repository contains a Python script for predicting house prices using linear regression.
 
@@ -13,8 +15,21 @@ The script generates a synthetic dataset with features (average income, crime ra
 ## Installation
 ```bash
 pip install pandas numpy scikit-learn
+```
 
+## Usage
+Run the script to train the model and see predictions:
+```bash
+python home_value_prediction.py
+```
 
+## Output
+- Mean Squared Error of the model
+- Example house price prediction for a given input
+```
+
+### Sentiment Analysis README
+```
 # Sentiment Analysis Tool
 This repository contains a Python script for analyzing text sentiment using NLTK's VADER.
 
@@ -29,3 +44,14 @@ The script uses the VADER sentiment analyzer to classify text as Positive, Negat
 ```bash
 pip install nltk
 python -m nltk.downloader vader_lexicon
+```
+
+## Usage
+Run the script to analyze sample texts:
+```bash
+python sentiment_analysis.py
+```
+
+## Output
+Sentiment classification for each input text.
+```
